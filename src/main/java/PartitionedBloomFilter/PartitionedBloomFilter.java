@@ -3,7 +3,7 @@ package PartitionedBloomFilter;
 import Utils.HashFunction;
 import Utils.MurmurFunction;
 
-public class PartionedBloomFilter {
+public class PartitionedBloomFilter {
 
     private boolean[] data;
     private MurmurFunction[] functions;
@@ -11,7 +11,7 @@ public class PartionedBloomFilter {
     private int partitionSize;
     private int overLoad;
 
-    public PartionedBloomFilter(int size, int numberOfFunction) {
+    public PartitionedBloomFilter(int size, int numberOfFunction) {
 
         //Init arrays
         data = new boolean[size];
@@ -19,8 +19,8 @@ public class PartionedBloomFilter {
 
         partitionSize = size/numberOfFunction;
         overLoad = size%numberOfFunction;
-        /*System.out.println("Each hashfunction will have a partion of " +
-                partitionSize + "/" + numberOfFunction + " exept the last one which will have " +  (partitionSize + overLoad));*/
+        /*System.out.println("Each hash function will have a partition of " +
+                partitionSize + "/" + numberOfFunction + " except the last one which will have " +  (partitionSize + overLoad));*/
 
         for(int j = 0; j<numberOfFunction-1;j++ )
             functions[j] = new MurmurFunction(partitionSize);

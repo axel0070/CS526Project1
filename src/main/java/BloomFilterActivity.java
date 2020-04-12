@@ -1,18 +1,16 @@
 import ClassicalBloomFilter.BloomFilter;
 import HashTable.HashTable;
-import PartitionedBloomFilter.PartionedBloomFilter;
+import PartitionedBloomFilter.PartitionedBloomFilter;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 import static Utils.MurmurHash.hash64;
 import static Utils.Stat.*;
-import static Utils.Utils.intToBytes;
 
 public class BloomFilterActivity {
 
     //We have the two type of bloomfilter
-    static PartionedBloomFilter PartionedBloomFilter;
+    static PartitionedBloomFilter PartitionedBloomFilter;
     static BloomFilter bloomFilter;
 
 
@@ -49,7 +47,7 @@ public class BloomFilterActivity {
     private static void initFilters()
     {
         //System.out.println("--Creating BloomFilters--");
-        PartionedBloomFilter = new PartionedBloomFilter(size,k);
+        PartitionedBloomFilter = new PartitionedBloomFilter(size,k);
         bloomFilter = new BloomFilter(size,k);
     }
 
@@ -75,14 +73,14 @@ public class BloomFilterActivity {
 
         for(int i = 0; i < nbOfElement;i++)
         {
-            int obj = generateRandomIntIntRange(0,(int) Math.pow(2,16));
+            int obj = generateRandomIntIntRange(0,(int) Math.pow(2,31)-1);
             //System.out.println("Elem: " + obj);
             //Saving this object into the hashtable
             table.insert(obj);
             //System.out.println("--");
             //Inserting this object in the bloom filters
             bloomFilter.insert(obj);
-            PartionedBloomFilter.insert(obj);
+            PartitionedBloomFilter.insert(obj);
         }
 
     }
@@ -98,7 +96,7 @@ public class BloomFilterActivity {
         for(int i = 0; i < numberOfLook;i++)
         {
             //Generating random object
-            int obj = generateRandomIntIntRange(0,(int) Math.pow(2,16));
+            int obj = generateRandomIntIntRange(0,(int) Math.pow(2,31)-1);
             //System.out.println("Elem: " + obj);
 
             //Checking only on time the hashtable
@@ -110,7 +108,7 @@ public class BloomFilterActivity {
                 else
                     bloomFilterPositive++;
 
-            if(PartionedBloomFilter.lookUp(obj))
+            if(PartitionedBloomFilter.lookUp(obj))
                 if(!isInside)
                     PartionedBloomFilterFalsePositive++;
                 else

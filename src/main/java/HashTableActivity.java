@@ -68,7 +68,7 @@ public class HashTableActivity {
 
         for(int i = 0; i < nbOfLook;i++)
         {
-            int obj = generateRandomIntIntRange(0,(int) Math.pow(2,16));
+            int obj = generateRandomIntIntRange(0,(int) Math.pow(2,20));
             //We start measuring the lime elapsed
             long startTime = System.nanoTime();
             //We insert the element

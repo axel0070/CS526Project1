@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e6563d8-178b-484e-9aba-6e19cc18e31e" name="Default Changelist" comment="" />
+    <list default="true" id="7e6563d8-178b-484e-9aba-6e19cc18e31e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BloomFilterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BloomFilterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/HashTableActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/HashTableActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/PartitionedBloomFilter/PartionedBloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PartitionedBloomFilter/PartitionedBloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HashTableActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HashTableActivity.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +32,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1a8KUtnMEFuNat8JWqu0aBMbAgY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/PartitionedBloomFilter" />
@@ -46,7 +58,7 @@
       <recent name="C:\Users\axels\IdeaProjects\CS526Project1\src\main\java\PartitionedBloomFilter" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashTableActivity">
+  <component name="RunManager" selected="Application.BloomFilterActivity">
     <configuration name="BloomFilterActivity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BloomFilterActivity" />
       <module name="CS526Project1" />
@@ -63,8 +75,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HashTableActivity" />
         <item itemvalue="Application.BloomFilterActivity" />
+        <item itemvalue="Application.HashTableActivity" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +105,7 @@
       <workItem from="1586111803925" duration="4845000" />
       <workItem from="1586355020087" duration="8825000" />
       <workItem from="1586518533615" duration="2842000" />
-      <workItem from="1586716820345" duration="5279000" />
+      <workItem from="1586716820345" duration="9310000" />
     </task>
     <servers />
   </component>
@@ -109,6 +121,10 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="550" y="342" width="404" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1504.963@0.0.1504.963" timestamp="1586116032321" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586722672714">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1504.963@0.0.1504.963" timestamp="1586722672714" />
     <state x="483" y="230" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586355641183">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
@@ -117,22 +133,22 @@
       <screen x="0" y="0" width="1504" height="963" />
     </state>
     <state x="533" y="209" key="FileChooserDialogImpl/0.0.1504.963@0.0.1504.963" timestamp="1586719743940" />
-    <state width="707" height="475" key="GridCell.Tab.0.bottom" timestamp="1586721918881">
+    <state width="1461" height="475" key="GridCell.Tab.0.bottom" timestamp="1586727684709">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="707" height="475" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586721918881" />
-    <state width="707" height="475" key="GridCell.Tab.0.center" timestamp="1586721918881">
+    <state width="1461" height="475" key="GridCell.Tab.0.bottom/0.0.1504.963@0.0.1504.963" timestamp="1586727684709" />
+    <state width="1461" height="475" key="GridCell.Tab.0.center" timestamp="1586727684708">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="707" height="475" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586721918881" />
-    <state width="707" height="475" key="GridCell.Tab.0.left" timestamp="1586721918881">
+    <state width="1461" height="475" key="GridCell.Tab.0.center/0.0.1504.963@0.0.1504.963" timestamp="1586727684708" />
+    <state width="1461" height="475" key="GridCell.Tab.0.left" timestamp="1586727684708">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="707" height="475" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586721918881" />
-    <state width="707" height="475" key="GridCell.Tab.0.right" timestamp="1586721918881">
+    <state width="1461" height="475" key="GridCell.Tab.0.left/0.0.1504.963@0.0.1504.963" timestamp="1586727684708" />
+    <state width="1461" height="475" key="GridCell.Tab.0.right" timestamp="1586727684708">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
-    <state width="707" height="475" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586721918881" />
+    <state width="1461" height="475" key="GridCell.Tab.0.right/0.0.1504.963@0.0.1504.963" timestamp="1586727684708" />
     <state width="1461" height="317" key="GridCell.Tab.1.bottom" timestamp="1586365344187">
       <screen x="0" y="0" width="1504" height="963" />
     </state>
